@@ -93,7 +93,7 @@ public class UserRegistrationTest {
 
 	@Test
 	public void givenPasswordRule4_WhenProper_ShouldReturnTrue() {
-		boolean result = userRegistration.password("mohin123");
+		boolean result = userRegistration.password("mohin@123");
 		Assert.assertEquals(true, result);
 	}
 
